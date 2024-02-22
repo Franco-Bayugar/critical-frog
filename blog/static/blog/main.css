@@ -1,11 +1,10 @@
 body {
-    background: #fafafa;
-    color: #333333;
+    background: #E1F0DA;
     margin-top: 5rem;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    color: #444444;
+    color: #12372A;
   }
   
   ul {
@@ -17,13 +16,12 @@ body {
     color: inherit; /* Esto asegura que el color del texto del enlace se herede del elemento padre */
 }
 
-  
   .bg-steel {
-    background-color: #5f788a;
+    background-color: #12372A;
   }
 
   .site-header .navbar-nav .nav-link {
-    color: #cbd5db;
+    color: #E1F0DA;
   }
   
   .site-header .navbar-nav .nav-link:hover {
@@ -45,19 +43,29 @@ body {
 
   
   .content-section {
-    background: #ffffff;
+    background: #fbfff7;
     padding: 10px 20px;
     border: 1px solid #dddddd;
     border-radius: 3px;
     margin-bottom: 20px;
   }
   
+  .mr-3 {
+    margin-right: 30px;
+  }
+
+  .post-author {
+    color: #12372A;
+    font-weight: bold;
+  }
+
+
   .article-title {
-    color: #444444;
+    color: #12372A;
   }
   
   a.article-title:hover {
-    color: #428bca;
+    color: #648871;
     text-decoration: none;
   }
   

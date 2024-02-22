@@ -14,15 +14,16 @@
     {% if title %}
         <title>Django Blog - {{ title }}</title>
     {% else %}
-        <title>Django Blog</title>
+        <title>FrogRate</title>
     {% endif %}    
-</head>
+        
+    </head>
 <body>
     <!-- Navigation bar -->
     <header class="site-header">
         <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
           <div class="container">
-            <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">Django Blog</a>
+            <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">FrogRate🐸</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,7 +35,7 @@
               <!-- Navbar Right Side -->
               <div class="navbar-nav loginregister-sub">
                 <a class="nav-item nav-link" href="#">Login</a>
-                <a class="nav-item nav-link" href="#">Register</a>
+                <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
               </div>
             </div>
           </div>
