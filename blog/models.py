@@ -5,7 +5,6 @@ from django.utils import timezone
 from django.contrib.auth.models import User
 
 # Models 
-
 class Post(models.Model):
     title = models.CharField(max_length=100)
     content = models.TextField()
@@ -15,4 +14,4 @@ class Post(models.Model):
     def __str__(self):
         return self.title
     
-    
+
