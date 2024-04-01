@@ -24,7 +24,7 @@ class UserUpdateForm(forms.ModelForm):
         
 # allow to the image        
 class ProfileUpdateForm(forms.ModelForm):
-    class meta:
+    class Meta:
         model = Profile
-        field = ['image']
+        fields = ['image']
         

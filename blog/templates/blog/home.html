@@ -1,15 +1,20 @@
 {% extends "blog/base.html" %}
 {% block content %}
     {% for post in posts %}
-        <article class="media content-section">
-            <div class="media-body">
-            <div class="article-metadata">
-                <a class="mr-3 post-author" href="#">{{ post.author }}</a>
-                <small class="text-muted">{{ post.date_posted|date:"F d, Y"}}</small>
+    <article class="media content-section">
+        <div class="media-body d-flex border-bottom pb-3">
+            <img class="rounded-circle article-img align-self-end" src="{{ post.author.profile.image.url }}" alt="post author image">
+            <div class="d-flex flex-column ml-3 mt-5">
+                <a class="post-author mt-auto mb-1" href="#">{{ post.author }}</a>
+                <sub class="text-muted mt-auto">{{ post.date_posted|date:"F d, Y"}}</sub>
             </div>
-            <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
-            <p class="article-content">{{ post.content }}</p>
+        </div>
+            <div class="media-body">
+                <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
+                <p class="article-content">{{ post.content }}</p>
             </div>
         </article>
     {% endfor %}
 {% endblock content%}
+
+
