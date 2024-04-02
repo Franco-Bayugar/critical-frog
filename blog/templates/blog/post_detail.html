@@ -1,0 +1,18 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <article class="media content-section">
+        <div class="media-body d-flex border-bottom pb-3">
+            <img class="rounded-circle article-img align-self-end" src="{{ object.author.profile.image.url }}" alt="post author image">
+            <div class="d-flex flex-column ml-3 mt-5">
+                <a class="post-author mt-auto mb-1" href="#">{{ object.author }}</a>
+                <sub class="text-muted mt-auto">{{ object.date_posted|date:"F d, Y"}}</sub>
+            </div>
+        </div>
+        <div class="media-body">
+            <h2 class="article-title">{{ object.title }}</h2>
+            <p class="article-content">{{ object.content }}</p>
+        </div>
+    </article>
+{% endblock content%}
+
+
