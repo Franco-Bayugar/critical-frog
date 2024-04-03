@@ -9,8 +9,17 @@
             </div>
         </div>
         <div class="media-body">
-            <h2 class="article-title">{{ object.title }}</h2>
-            <p class="article-content">{{ object.content }}</p>
+            <div class="">
+                <h2 class="article-title">{{ object.title }}</h2>
+                <p class="article-content">{{ object.content }}</p>
+            </div>
+            <div class="mt-5">
+                <a class="btn btn-outline-dark btn-sm" href="{% url 'blog-home' %}">Home</a>
+                {% if object.author == user %}
+                    <a class="btn btn-outline-info btn-sm" href="{% url 'post-update' object.id %}"><b>Edit post</b></a>
+                    <a class="btn btn-outline-danger btn-sm" href="{% url 'post-delete' object.id %}"><b>Delete post</b></a>
+                {% endif %}
+            </div>
         </div>
     </article>
 {% endblock content%}
