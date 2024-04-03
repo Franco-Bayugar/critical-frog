@@ -37,7 +37,8 @@
                 {% if user.is_authenticated %}
                     <form method="POST" action="{% url 'logout' %}">
                         {% csrf_token %}
-                        <div class="d-flex p-2">
+                        <div class="d-flex">
+                            <a class="btn btn-outline-success nav-item nav-link" href="{% url 'post-create' %}">Post</a>
                             <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
                             <button class="nav-item nav-link btn btn-link" type="submit">Logout</button>
                         </div>
