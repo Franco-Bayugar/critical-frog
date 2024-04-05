@@ -14,6 +14,7 @@ class PostListView(ListView):
     template_name = 'blog/home.html' # This replaces the naming convention of the path <app>/<model>_<viewtype>.html
     context_object_name = 'posts' # Naming the iterable object
     ordering = ['-date_posted']
+    paginate_by = 6
 
 # Class that renders a detailer blog entry
 class PostDetailView(DetailView):
@@ -40,6 +41,7 @@ class PostUpdateView(UserPassesTestMixin, LoginRequiredMixin, UpdateView):
         form.instance.author = self.request.user
         return super().form_valid(form)
     
+
     
     def test_func(self) -> bool | None: # Prevents that any user edits other people posts.
         post = self.get_object()
