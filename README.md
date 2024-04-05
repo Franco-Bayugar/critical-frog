@@ -5,14 +5,14 @@
 
 
 *Watch others people posts*
-https://github.com/Franco-Bayugar/critical-frog/assets/126421782/be85776c-aa84-4a9d-a139-11e07e9b57aa
+![video1-ezgif com-video-to-gif-converter](https://github.com/Franco-Bayugar/critical-frog/assets/126421782/8b43dd84-2bc1-457b-a4ed-6c8a14063992)
 
 
 *Create you profile and Log in. You can update your profile later.*
-https://github.com/Franco-Bayugar/critical-frog/assets/126421782/91e7d36b-697b-44f4-8e83-b000602a4acb
+![video2-ezgif com-video-to-gif-converter](https://github.com/Franco-Bayugar/critical-frog/assets/126421782/b04c5bf6-8fb8-446d-a6e7-9a072a31888d)
 
 *Start to write, update or delete your post!* 
-https://github.com/Franco-Bayugar/critical-frog/assets/126421782/321de17a-5d8e-4b07-934f-452204d4d01c
+![video3-ezgif com-video-to-gif-converter](https://github.com/Franco-Bayugar/critical-frog/assets/126421782/ca776743-4a82-4348-a2b0-4fc05af3bf4c)
 
 
 The main of this project:
