@@ -5,13 +5,18 @@
 
 
 *Watch others people posts*
+
 ![video1-ezgif com-video-to-gif-converter](https://github.com/Franco-Bayugar/critical-frog/assets/126421782/8b43dd84-2bc1-457b-a4ed-6c8a14063992)
 
 
+
 *Create you profile and Log in. You can update your profile later.*
+
 ![video2-ezgif com-video-to-gif-converter](https://github.com/Franco-Bayugar/critical-frog/assets/126421782/b04c5bf6-8fb8-446d-a6e7-9a072a31888d)
 
+
 *Start to write, update or delete your post!* 
+
 ![video3-ezgif com-video-to-gif-converter](https://github.com/Franco-Bayugar/critical-frog/assets/126421782/ca776743-4a82-4348-a2b0-4fc05af3bf4c)
 
 
