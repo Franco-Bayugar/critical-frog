@@ -25,7 +25,7 @@ The main of this project:
 2) Work with **APIView classes**:
   2.1) Both, **Function-based views** (FBV) and **Class-based views** (CBV)
 3) Employ the **Django ORM** and **SQLite3** for database.
-4) Practice the work with the **terminal** in order to avoid as much as I can the interface. Making migrations; running the server; create posts with a local JSON file; push changes to this repo, etc.
+4) Work with the **terminal** in order to avoid as much as I can the interface. Making migrations; running the server; create posts with a local JSON file; push changes to this repo, etc.
 5) Pulling an **orderly** and clean **workflow**.
 
 Thank you for reading 🐸👍
